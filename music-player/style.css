@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 85% ;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    /* align-items: center; */
+    padding: 100px 200px;
+}
+
+#left{
+    height: 100%;
+    width: 45%;
+    background-color: #333;
+    background-size: cover;
+    background-position: top;
+    background-image: url("https://c.saavncdn.com/211/Brothers-Hindi-2015-500x500.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#right{
+    height: 100%;
+    width: 55%;
+    /* background-color: #333; */
+    padding: 0 50px;
+}
+
+#right h3{
+    font-size: 40px;
+}
+
+#all-song{
+    /* background-color: blue; */
+    height: 85%;
+    margin-top: 30px;
+}
+
+.song-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 15px;
+    border-top: 1px solid #5a5a5a;
+}
+
+.song-card:hover{
+    background-color: #1e1e1e;
+}
+
+.song-card:nth-last-child(1){
+    border-bottom:1px solid #5a5a5a;
+}
+
+.song-card .part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.song-card img{
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
+}
+
+.song-card h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.song-card h6 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#player{
+   height: 15% ;
+   width: 100%;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+}
+
+#player h3{
+    background-color: rgb(57, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#player h3 i{
+    font-size: 24px;
+
+}
+
+#player h3 :active{
+    scale: 0.95;
+}
