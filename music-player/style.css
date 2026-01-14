@@ -26,7 +26,7 @@ html, body{
     background-color: #333;
     background-size: cover;
     background-position: top;
-    background-image: url("https://c.saavncdn.com/211/Brothers-Hindi-2015-500x500.jpg");
+    /* background-image: url("https://c.saavncdn.com/211/Brothers-Hindi-2015-500x500.jpg"); */
     background-size: cover;
     background-position: center;
 }
@@ -58,6 +58,7 @@ html, body{
 
 .song-card:hover{
     background-color: #1e1e1e;
+    cursor: pointer;
 }
 
 .song-card:nth-last-child(1){
@@ -68,6 +69,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    pointer-events: none;
 }
 
 .song-card img{
