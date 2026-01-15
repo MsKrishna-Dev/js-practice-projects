@@ -48,7 +48,7 @@ A simple browser-based music player that allows users to play, pause, and switch
 ![Music Player](screenshots/music-player.png)
 
 ---
-
+```
 js-practice-projects/
 │
 ├── image-filter-gallery/
@@ -73,7 +73,7 @@ js-practice-projects/
 │
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## 🧠 Learning Goals
